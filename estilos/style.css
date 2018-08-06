@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    width: 1200px;
+    max-width: 1800px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 0;
+}
+
+.menu-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-principal a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
