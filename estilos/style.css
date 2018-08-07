@@ -14,8 +14,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 0;
     margin-left: 10%;
     width: 85%;
+    height: 80px;
 }
 
 .botoes-login {
@@ -45,8 +47,7 @@ body {
 .cabecalho h1 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2.6em;
-    margin-top: 0;
+    font-size: 3em;
 }
 
 .menu-principal {
@@ -55,7 +56,6 @@ body {
     align-items: center;
     width: 80%;
     min-width: 50%;
-    padding-top: 20px;
     margin-left: 10%;
 }
 
@@ -67,6 +67,40 @@ body {
 
 section {
     margin-top: 30px;
+}
+
+.texto-post {
+    color: #808080;
+    font-size: 13px;
+}
+
+.posts a {
+    text-decoration: none;
+    color: #000;
+}
+
+.noticia-principal h3 {
+    font-size: 1.5em;
+}
+
+
+time {
+    color: #808080;
+}
+
+.image-2 {
+    width: 100px;
+    height: 100px;
+}
+
+.image-1 {
+    width: 326px;
+    height: 150px;
+}
+
+.image-3 {
+    width: 264px;
+    height: 150px;
 }
 
 .ver-mais {
