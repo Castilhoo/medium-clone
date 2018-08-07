@@ -3,20 +3,41 @@
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    width: 1200px;
-    max-width: 1800px;
+    width: 90%;
+    min-width: 50%;
 }
 
 .cabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 10%;
+}
+
+.botoes-login {
+    justify-content: end;
+    align-items: center;
+}
+
+.become-member {
+    text-decoration: none;
+    color: #808080;
+}
+
+.botoes-login a {
+    padding: 10px;
+}
+
+.botoes-login button {
+    padding: 10px;
 }
 
 .cabecalho h1 {
     text-align: center;
-    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.6em;
     margin-top: 0;
 }
 
@@ -24,9 +45,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 85%;
+    min-width: 50%;
+    padding-top: 20px;
+    margin-left: 10%;
 }
 
 .menu-principal a {
     text-transform: uppercase;
     text-decoration: none;
+    color: #808080;
+}
+
+section {
+    margin-top: 30px;
 }
