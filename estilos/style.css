@@ -72,6 +72,8 @@ section {
 .texto-post {
     color: #808080;
     font-size: 13px;
+    margin: 0;
+    line-height: 1;
 }
 
 .posts a {
@@ -83,9 +85,26 @@ section {
     font-size: 1.5em;
 }
 
+.noticia-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.noticias-secundarias {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 time {
     color: #808080;
+    margin-top: 0;
 }
 
 .image-2 {
