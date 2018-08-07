@@ -94,6 +94,7 @@ section {
 
 .noticias-secundarias {
     display: flex;
+    flex-direction: column;
 }
 
 .container {
