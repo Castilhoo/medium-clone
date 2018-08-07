@@ -7,6 +7,7 @@ body {
     font-size: 14px;
     width: 90%;
     min-width: 50%;
+    margin: auto;
 }
 
 .cabecalho {
@@ -14,6 +15,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-left: 10%;
+    width: 85%;
 }
 
 .botoes-login {
@@ -28,10 +30,16 @@ body {
 
 .botoes-login a {
     padding: 10px;
+    color: #3CB371;
+    text-decoration: none;
 }
 
-.botoes-login button {
-    padding: 10px;
+.botoes-login .button {
+    padding: 10px 20px;
+    color: #3CB371;
+    border: 1px solid #3CB371;
+    border-radius: 5px;
+    background-color: #FFF;
 }
 
 .cabecalho h1 {
@@ -45,7 +53,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 85%;
+    width: 80%;
     min-width: 50%;
     padding-top: 20px;
     margin-left: 10%;
@@ -59,4 +67,10 @@ body {
 
 section {
     margin-top: 30px;
+}
+
+.ver-mais {
+    color: #3CB371;
+    text-transform: uppercase;
+    text-decoration: none;
 }
