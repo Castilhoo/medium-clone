@@ -103,8 +103,7 @@ div a {
 }
 
 .posts img {
-    margin-bottom: 10px;
-    margin-right: 10px;
+    margin: 0 10px 10px 10px;
 }
 
 .middle-text {
