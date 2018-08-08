@@ -103,7 +103,7 @@ div a {
 }
 
 .posts img {
-    margin: 0 10px 10px 10px;
+    margin: 0 10px 10px 5px;
 }
 
 .middle-text {
@@ -123,10 +123,18 @@ div a {
     justify-content: space-between;
 }
 
+.last-new {
+    margin-left: 10px;
+}
+
 
 time {
     color: #808080;
     margin-top: 0;
+}
+
+.autor {
+    margin-bottom: 0;
 }
 
 .image-mini {
