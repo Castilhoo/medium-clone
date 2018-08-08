@@ -128,4 +128,6 @@ time {
     color: #3CB371;
     text-transform: uppercase;
     text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
 }
