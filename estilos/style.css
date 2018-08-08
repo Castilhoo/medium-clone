@@ -97,6 +97,28 @@ div a {
     flex-direction: column;
 }
 
+.posts {
+    display: flex;
+    flex-flow: row;
+}
+
+.posts img {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.middle-text {
+    flex-direction: column;
+}
+
+.middle-text h3 {
+    margin-top: 0;
+}
+
+.middle-text p {
+    margin-bottom: 0;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
