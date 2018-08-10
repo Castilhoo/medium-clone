@@ -44,6 +44,11 @@ body {
     background-color: #FFF;
 }
 
+.button:hover, .button:focus {
+    color: #FFF;
+    background-color: #3CB371;
+}
+
 .cabecalho h1 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -143,12 +148,12 @@ time {
     
 }
 
-.image-1 {
+.img-principal {
     width: 326px;
     height: 150px;
 }
 
-.image-3 {
+.last-img {
     width: 264px;
     height: 150px;
 }
